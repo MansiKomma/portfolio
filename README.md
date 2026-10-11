@@ -26,7 +26,7 @@ Personal facts, biography, tool groups, employers, contact placeholders and soci
 
 Edit **src/styles/tokens.css** for the palette, spacing, type families and maximum width. Other styles are split into `base.css`, `components.css`, `sections.css` and the embed-specific `embed.css`. Fontsource imports are in `src/main.ts`; replace the imports and the display/body variables together. The accent is a sparing chartreuse on a warm neutral base, chosen after reviewing real thumbnails.
 
-Work titles come from filenames with underscores and hyphens converted to spaces. Original labels and numbers are preserved. No descriptions, client relationships, project dates or awards are inferred. Category diversity determines the selected rows; the user can curate these further in `main.ts`.
+Work titles come from filenames with underscores and hyphens converted to spaces. Original labels and numbers are preserved. No descriptions, client relationships, project dates or awards are inferred. The work area opens with the More in Motion gallery, followed directly by the filterable archive collage. There are no large Selected Work rows.
 
 ## Deploy anywhere
 

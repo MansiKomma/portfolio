@@ -14,7 +14,8 @@ for(const width of [390,1024,1440]){
  await page.waitForTimeout(900);await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(900);
  const initial=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth,broken:[...document.images].filter(i=>i.complete&&!i.naturalWidth).map(i=>i.alt),cls:(window as unknown as {qaShifts:number[]}).qaShifts.reduce((a,b)=>a+b,0),longTasks:(window as unknown as {qaTasks:number[]}).qaTasks.filter(n=>n>50),cards:document.querySelectorAll('.archive-card').length}));
  await page.screenshot({path:`qa/full-${width}.png`,fullPage:true});
- await page.locator('.project').nth(1).scrollIntoViewIfNeeded();await page.waitForTimeout(900);await page.screenshot({path:`qa/work-${width}.png`});
+ if(await page.locator('.selected').count())throw new Error('Selected Work section is still present');
+ await page.locator('#work.horizontal-section').scrollIntoViewIfNeeded();await page.waitForTimeout(900);await page.screenshot({path:`qa/work-${width}.png`});
  await page.locator('[data-filter="AI"]').click();await page.waitForTimeout(800);const filtered=await page.locator('.archive-card:not([hidden])').count();if(filtered!==8)throw new Error(`AI filter returned ${filtered}`);
  await page.locator('.archive-card:not([hidden]) [data-work]').first().click();await page.waitForTimeout(600);
  if(await page.locator('[data-drive-player]').count()!==1)throw new Error('Drive player missing');

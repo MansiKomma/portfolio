@@ -1,6 +1,6 @@
 # Build report
 
-Built a responsive editorial portfolio for Mansi Komma using Vite, TypeScript and plain CSS. The experience includes a first-visit loader, oversized serif hero, fixed navigation and mobile overlay, scroll-revealed introduction, eight selected project rows, a pinned desktop gallery / mobile carousel, tool marquee, category-filtered masonry archive, embedded media lightbox, about / experience / tools, contact placeholders and back-to-top. Lenis and GSAP are synchronized. Reduced motion removes smooth scrolling, parallax, pinning and the loader.
+Built a responsive editorial portfolio for Mansi Komma using Vite, TypeScript and plain CSS. The experience includes a first-visit loader, oversized serif hero, fixed navigation and mobile overlay, scroll-revealed introduction, a pinned More in Motion desktop gallery / mobile carousel followed directly by the category-filtered masonry archive, tool marquee, embedded media lightbox, about / experience / tools, contact placeholders and back-to-top. Lenis and GSAP are synchronized. Reduced motion removes smooth scrolling, parallax, pinning and the loader.
 
 All work remains on Google Drive, as requested in the user's revised instruction. One video iframe exists at a time. Closing or changing work removes its player. Images use responsive Drive thumbnails with WebP and JPEG fallback. No original media is bundled with the website. Sync lists metadata only and never modifies Drive.
 
@@ -32,9 +32,9 @@ The complete recursive Drive listing was checked twice. No category reached the 
 
 1. The newer request to embed Drive media replaces downloading / transcoding, local preview clips and the autoplay montage. Click-to-play is used because Google Drive owns its player and does not offer controllable muted hover previews through this iframe.
 2. Top-level folders define the seven categories. Display casing is normalized; source filenames and file IDs remain recorded. Underscores and hyphens become spaces in titles, while original numbers and labels are retained.
-3. The selected rows prioritize category variety and observed thumbnail dimensions. Original video resolution is unknown in embed mode, so these dimensions are explicitly thumbnail measurements. They also determine portrait / landscape layout.
+3. Selected Work was removed at the user's request to shorten the page. More in Motion now appears directly before the collage archive. Original video resolution is unknown in embed mode, so layout dimensions are explicitly thumbnail measurements.
 4. The stat counts archive pieces, rather than claiming 44 distinct commissioned projects or clients. Filenames do not prove client relationships.
-5. No project dates are inferred from file modification times. Selected work is marked undated; descriptions, client metadata and dates stay blank.
+5. No project dates are inferred from file modification times. Descriptions, client metadata and dates stay blank.
 6. The biography uses only the supplied facts. Employer title and dates, email, social URLs, personal pitch, availability and extra AI tools are TODO fields in `src/data/site.ts`. Unprovided email / social links are shown as pending. The personal pitch and extra AI-tool placeholder do not render.
 7. No portrait or CV is shown because no clearly identified portrait / CV exists in the listing. No location, clients, awards, testimonials or career dates were invented.
 8. The warm cream / near-black palette is retained. Real poster colour samples are recorded in `palette-report.json`; chartreuse is used sparingly as the accent.
