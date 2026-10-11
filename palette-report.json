@@ -1,0 +1,114 @@
+{
+  "samples": [
+    {
+      "source": "Browser screenshot of real Drive thumbnail",
+      "file": "hero-1440.png",
+      "dominantColours": [
+        {
+          "rgb": [
+            152,
+            95,
+            83
+          ],
+          "fraction": 0.254
+        },
+        {
+          "rgb": [
+            98,
+            61,
+            55
+          ],
+          "fraction": 0.195
+        },
+        {
+          "rgb": [
+            167,
+            113,
+            107
+          ],
+          "fraction": 0.176
+        },
+        {
+          "rgb": [
+            250,
+            183,
+            152
+          ],
+          "fraction": 0.151
+        },
+        {
+          "rgb": [
+            183,
+            126,
+            116
+          ],
+          "fraction": 0.143
+        },
+        {
+          "rgb": [
+            220,
+            153,
+            134
+          ],
+          "fraction": 0.081
+        }
+      ]
+    },
+    {
+      "source": "Browser screenshot of real Drive thumbnail",
+      "file": "work-1024.png",
+      "dominantColours": [
+        {
+          "rgb": [
+            35,
+            20,
+            6
+          ],
+          "fraction": 0.222
+        },
+        {
+          "rgb": [
+            146,
+            113,
+            69
+          ],
+          "fraction": 0.189
+        },
+        {
+          "rgb": [
+            130,
+            86,
+            45
+          ],
+          "fraction": 0.181
+        },
+        {
+          "rgb": [
+            109,
+            58,
+            22
+          ],
+          "fraction": 0.155
+        },
+        {
+          "rgb": [
+            80,
+            48,
+            18
+          ],
+          "fraction": 0.154
+        },
+        {
+          "rgb": [
+            196,
+            141,
+            88
+          ],
+          "fraction": 0.099
+        }
+      ]
+    }
+  ],
+  "accent": "#D6FF3F",
+  "decision": "Warm browns, peach and orange dominate these actual poster samples. A small chartreuse accent complements those warm hues; cream and near-black remain the dominant UI colours."
+}

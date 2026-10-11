@@ -1,0 +1,57 @@
+{
+  "mode": "Drive embeds, per user instruction",
+  "total": 44,
+  "summary": {
+    "3D/CGI": {
+      "count": 3,
+      "types": {
+        "video": 3
+      }
+    },
+    "AI": {
+      "count": 8,
+      "types": {
+        "video": 8
+      }
+    },
+    "Logo Animation": {
+      "count": 3,
+      "types": {
+        "video": 3
+      }
+    },
+    "Long Form Video": {
+      "count": 1,
+      "types": {
+        "video": 1
+      }
+    },
+    "Motion Graphics": {
+      "count": 2,
+      "types": {
+        "video": 2
+      }
+    },
+    "Social Media": {
+      "count": 20,
+      "types": {
+        "video": 20
+      }
+    },
+    "Static": {
+      "count": 7,
+      "types": {
+        "image": 7
+      }
+    }
+  },
+  "failures": [],
+  "googleNativeFiles": [],
+  "notes": [
+    "44 entries in complete recursive listing. No folder level reached 50 files.",
+    "Earlier partial download stopped and ignored. No media downloaded during sync or build.",
+    "Dimensions resolved from thumbnails. Dates and descriptions are not inferred.",
+    "No portrait or CV identified.",
+    "Google Drive controls playback, streaming and embedding availability."
+  ]
+}
