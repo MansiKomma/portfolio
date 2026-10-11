@@ -31,7 +31,7 @@ Work titles come from filenames with underscores and hyphens converted to spaces
 ## Deploy anywhere
 
 - Vercel / Netlify: build command `npm run build`, output directory `dist`.
-- GitHub Pages: set `BASE_PATH=/your-repository/` during `npm run build` and upload `dist` with a Pages workflow. All bundled asset paths respect Vite's base path. Drive URLs remain absolute.
+- GitHub Pages: live URL https://mansikomma.github.io/portfolio/. Pages serves the built files from the `gh-pages` branch. Build with `BASE_PATH=/portfolio/` and `SITE_ORIGIN=https://mansikomma.github.io/portfolio`, then publish the contents of `dist` to `gh-pages` with an empty `.nojekyll` file. Source changes on `main` require a new build and publication. Drive URLs remain absolute.
 - Update `site.origin` and the canonical / Open Graph URL in `index.html` to the actual production origin, then run `npm run manifest` and `npm run build` to regenerate the sitemap.
 - Sites: `.openai/hosting.json` identifies the private Site and static `dist` output. Publication does not change Drive permissions.
 
