@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mansi-komma-motion-portfolio.abloomdill64.chatgpt.site/sitemap.xml
