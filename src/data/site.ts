@@ -5,7 +5,7 @@ export const site = {
   freelance: 'Ongoing',
   aiTools: ['Seedance', 'Omni', 'Kling'], // TODO: add more
   tools: ['Photoshop', 'After Effects', 'CapCut', 'Higgsfield', 'Freepik', 'Canva'],
-  email: '', // TODO: email
+  email: 'designmansi6080@gmail.com',
   socials: [{ name: 'Instagram', url: '' }, { name: 'LinkedIn', url: '' }, { name: 'Behance', url: '' }], // TODO: social URLs
   availability: '', // TODO: confirm availability before claiming open for projects
   bio: 'Mansi Komma is a video editor and motion designer with two years of experience. She has worked with 11 Eleven Media and continues to take on freelance projects.', // TODO: edit freely
