@@ -45,6 +45,8 @@ The complete recursive Drive listing was checked twice. No category reached the 
 
 Google Drive controls streaming, cookies, buffering, availability and embed access. Every item includes an “Open in Google Drive” fallback. Keep viewing permission enabled on the files. Keyboard shortcuts and swipe events inside the cross-origin player are handled by Drive; the portfolio's close / previous / next controls remain outside it. Escape and swipe navigation apply when focus / touch is on the portfolio surface.
 
+The automated browser successfully loaded every video preview and its controls. An actual Play attempt on the sample Clayco embed returned “An unexpected error occurred” from Drive, and its nested player stayed paused. Full streaming is therefore **unverified in a normal browser**; preview availability must not be read as proof that all streams played. A visible “Open in Drive” fallback is retained. No Drive permission or media change was made to work around this external player error.
+
 The earlier partial download was stopped immediately when the user changed the brief. It remains ignored in the workspace and is excluded from the source repository, source download and production build. Drive itself was never changed.
 
 See `README.md` for metadata-only sync, changing content / fonts / colours and deployment to Sites, Vercel, Netlify or GitHub Pages.
