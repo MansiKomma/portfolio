@@ -1,0 +1,8 @@
+node_modules/
+dist/
+assets-raw/
+assets-raw.zip
+work/
+.sites-local/
+*.tar
+qa/

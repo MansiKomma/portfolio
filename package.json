@@ -1,0 +1,30 @@
+{
+  "name": "mansi-komma-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && tsx scripts/build-seo.ts && vite build",
+    "lint": "tsc --noEmit",
+    "manifest": "tsx scripts/build-manifest.ts",
+    "sync:drive": "python scripts/sync-drive.py && npm run manifest",
+    "preview": "vite preview --host 127.0.0.1",
+    "qa": "tsx scripts/qa.ts",
+    "probe": "tsx scripts/probe-thumbnails.ts && npm run manifest"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "5.2.5",
+    "@fontsource/manrope": "5.2.5",
+    "gsap": "3.13.0",
+    "lenis": "1.3.11",
+    "split-type": "0.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "playwright": "1.52.0",
+    "tsx": "4.19.4",
+    "typescript": "5.8.3",
+    "vite": "6.3.5"
+  }
+}

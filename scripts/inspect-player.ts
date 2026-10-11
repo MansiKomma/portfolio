@@ -1,0 +1,2 @@
+import { chromium } from 'playwright';
+const browser=await chromium.launch({headless:true});const page=await browser.newPage();await page.addInitScript('window.__name=(fn)=>fn');await page.goto('https://drive.google.com/file/d/1TCcMpudcexjlwxblXx5GZnTebprNPiec/preview');await page.waitForTimeout(2500);console.log('BODY',(await page.locator('body').innerText()).slice(0,1200));console.log('BUTTONS',await page.locator('button').evaluateAll(els=>els.map(e=>({text:e.textContent,label:e.getAttribute('aria-label'),title:e.getAttribute('title')}))));await browser.close();
